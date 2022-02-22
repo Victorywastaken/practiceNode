@@ -7,9 +7,9 @@ const rl = readline.createInterface({
   output: process.stdout
 });
 
-rl.question(`Guess the word?\n`, (answer) => {
-  if (answer === 'word') {
-    console.log('You guessed it!');
+rl.question(`Play a game?\n`, (answer) => {
+  if (answer === 'yes') {
+    console.log(`Let's begin!`);
   } else {
     console.log('You guessed wrong!');
   }
